@@ -1,0 +1,36 @@
+{
+  "700484707284025385": {
+    "purge": true,
+    "clans": true
+  },
+  "696403985875337296": {
+    "ban": false,
+    "unban": true,
+    "clans": true,
+    "purge": true
+  },
+  "621728738316386344": {
+    "purge": true,
+    "ban": true,
+    "mute": true,
+    "clans": true
+  },
+  "538018429748379668": {
+    "ban": true,
+    "clans": true
+  },
+  "350571031683137546": {
+    "purge": true,
+    "rank": true,
+    "clans": true
+  },
+  "684108663303962657": {
+    "purge": true,
+    "rank": true,
+    "clans": true
+  },
+  "709121888961429625": {
+    "rank": true,
+    "ban": true
+  }
+}

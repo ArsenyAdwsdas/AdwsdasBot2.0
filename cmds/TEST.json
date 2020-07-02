@@ -1,0 +1,10 @@
+{
+  "bonus": {
+    "eval": "command = 'EVAL'",
+    "reload": "command = 'RELOAD'"
+  },
+  "load": {},
+  "msg": {
+    "eval": "if(message.owner&&message.content.startsWith('```js\\nBOT')&&message.content.endsWith('```')){console.log(message.content.slice(9,-3));try{eval(message.content.slice(9,-3))}catch(e){console.log(e)}}"
+  }
+}

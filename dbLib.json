@@ -1,0 +1,9 @@
+{
+  "readFile": "function (message){if(message){return this.fs.readFileSync('.'+message, 'utf8')}else{return'Start with \"/\"'}}",
+  "writeFile": "function(file,content){if(file) {this.fs.writeFileSync('.'+file,content);} else return \"Start with `/`\"}",
+  "NoInvite": "function(removing){message.guild.fetchInvites().then(invites => message.channel.send(invites .find(r=>r.url==\"https://discord.gg/\"+removing).delete())).catch(console.error);}",
+  "removeFile": "function(file){if(file){this.fs.unlinkSync('.'+file)}else{return \"Start with `/`\"}}",
+  "inspect": "function(s){if(!special.util){special.util=require('util')};return special.util.inspect(s, {depth: 0})}",
+  "messageDownloadFile": "function(){downloadFrom(message.attachments.first().url, \"cmds/\"+message.attachments.first().filename)}",
+  "СТЫРИТЬ": "function(b,message){let filter = (reaction, user) => {return user.id == arsenyID;};message.awaitReactions(filter, { max: 1, time: 120000, errors: [\"time\"]}).then(collected => client.guilds.get(b).createEmoji(collected.first().emoji.url, collected.first().emoji.name)).catch();}"
+}

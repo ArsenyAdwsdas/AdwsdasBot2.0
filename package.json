@@ -1,0 +1,27 @@
+{
+  "name": "AdwsdasBot",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "",
+  "dependencies": {
+    "discord.js": "^11.6.3",
+    "express": "^4.17.1",
+    "express-glitch-keepalive": "^0.2.0",
+    "lua-in-js": "^2.2.0",
+    "luaparse": "^0.3.0",
+    "node-json-db": "^1.1.0",
+    "safe-eval": "^0.4.1",
+    "su-downloader3": "^1.1.1",
+    "lua-json": "^1.0.0",
+    "import-fresh": "^3.2.1",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {}
+}
